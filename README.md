@@ -29,10 +29,10 @@ Fusion, an important class of somatic mutation, is an ideal source of tumor-deri
 
 ## Installation   
 #### Install via Docker, highly recommended   
-Docker image of neoFusion is available at https://hub.docker.com/r/weizhiting/neofusion/.   
+Docker image of neoFusion is available at https://hub.docker.com/r/bm2lab/neofusion/.   
 if you have docker installed, you can pull the image like so:   
     
-    docker pull weizhiting/neofusion
+    docker pull bm2lab/neofusion
 
 #### Install from source, not recommended   
 To install  neoFusion, you just need download neoFusion.py and all the described dependencies.
@@ -41,12 +41,12 @@ To install  neoFusion, you just need download neoFusion.py and all the described
 ## Usage    
 if you install from docker:
     
-    docker run -it weizhiting/neofusion
+    docker run -it bm2lab/neofusion
     python /usr/local/neoFusion.py -h   
 
 if you install from source:    
 
-    edit the software path in neoFusion to the right path in your environment.  
+    edit the software path in neoFusion.py to the right path in your environment.  
 
 Two mode are provided, denovo and midway. In denovo, you should provide fastq files.    
   
