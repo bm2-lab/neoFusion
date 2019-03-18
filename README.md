@@ -9,7 +9,7 @@ Fusion, which served as an important class of somatic mutation, is an ideal sour
 * [OptiType](https://github.com/FRED-2/OptiType)
 * [netchop](http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?netchop)
 * [STAR-Fusion](https://github.com/STAR-Fusion/STAR-Fusion)
-* [ pepmatch ]  module of MuPeXI, for convenience, we provide this binary tool.
+* [ pepmatch ]  module of MuPeXI
 
 
 #### Python2 package     
