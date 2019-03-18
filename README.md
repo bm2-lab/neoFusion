@@ -62,17 +62,17 @@ The output file "neoscore.txt" contains all putative neoantigens information.
 | Column | Description |
 | - | -: |
 | HLA | HLA type |
-| mismatch | The base number different between mtpep and wtpep |
+| mismatch | The different base number between mtpep and wtpep |
 | MTpep | fusion derived neopeptide |
-| MTpep_score | netMHCpan predicted score of mtpep |
-| MTpep_aff | netMHCpan predicted affinity of mtpep |
-| MTpep_rank | netMHCpan predicted bind rank(%) of mtpep |
-| MTpep_comb | netCTLpan predicted comb score of mtpep, combined MHC score, cleavage score and TAP score |
+| MTpep_score | predicted score of mtpep output by netMHCpan|
+| MTpep_aff | predicted affinity of mtpep output by netMHCpan |
+| MTpep_rank | predicted bind rank(%) of mtpep output by netMHCpan |
+| MTpep_comb | predicted comb score of mtpep, combined MHC score, cleavage score and TAP score output by netCTLpan|
 | WTpep | pepmatch_db_x86_64 extracted normal peptide |
-| WTpep_score |  netMHCpan predicted score of wtpep |
-| WTpep_aff | netMHCpan predicted affinity of wtpep |
-| WTpep_rank | netMHCpan predicted bind rank(%) of wtpep |
-| WTpep_comb | netCTLpan predicted comb score of wtpep, combined MHC score, cleavage score and TAP score |
+| WTpep_score |  predicted score of wtpep output by netMHCpan|
+| WTpep_aff |  predicted affinity of wtpep output by netMHCpan |
+| WTpep_rank |  predicted bind rank(%) of wtpep output by netMHCpan|
+| WTpep_comb |  predicted comb score of wtpep, combined MHC score, cleavage score and TAP score output by netCTLpan|
 | Hydro_Model | peptide immunity measurement based on amino acid hydrophobicity |
 | R | T cell recognition score calculated based on TCR cross-reactivity |
 | Score | Immunogenicity score of neoantigens |
