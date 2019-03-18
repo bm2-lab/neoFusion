@@ -1,6 +1,6 @@
-# neoFusion: predict fusion neoantigen and assess immunogenecity  
+# neoFusion: predict fusion neoantigens and assess their immunogenecity  
   
-Fusion, which served as an important class of somatic mutation, is an ideal source of tumor-derived neoantigens for the capability of creating open reading frame. In this study, the first one-top pipeline for identifying and prioritizing fusion neoantigen are presented.            
+Fusion, which served as an important class of somatic mutation, is an ideal source of tumor-derived neoantigens for the capability of creating open reading frame. In this study, the first pipeline for identifying and prioritizing fusion neoantigen are presented.            
      
 ## Dependencies   
 
