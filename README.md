@@ -39,20 +39,20 @@ To install  neoFusion, you just need download neoFusion.py and all the described
 
 
 ## Usage    
-if you install from docker:
+if install from docker:
     
     docker run -it bm2lab/neofusion
     python /usr/local/neoFusion.py -h   
 
-if you install from source:    
+if install from source:    
 
-    edit the software path in neoFusion.py to the right path in your environment.  
+    please edit the software path in neoFusion.py to the right path in your environment.  
 
-Two mode are provided, denovo and midway. In denovo, you should provide fastq files.    
+Two mode are provided, denovo and midway. In denovo mode, you should provide fastq files.    
   
     python neoFusion denovo --left 1.fq  --right 2.fq  --hla  HLA-A02:01  --genome STAR_Fusion/GRCh38/ctat/
 
-In midway, you can provide fusion transcripts in fa format.    
+In midway mode, just provide fusion transcripts in fa format.    
     
     python neoFusion midway --fusion fusion.fa --hla HLA-A02:01     
 
