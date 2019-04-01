@@ -1,6 +1,6 @@
 # neoFusion: a computational pipeline for gene fusion neoantigen identification and immunogenicity assessment  
   
-Fusion, which is an important class of somatic mutations, is an ideal source of tumor-derived neoantigens for creating an open reading frame. Given RNAseq sequencing data as input, neoFusion identify and evaluate the potential immunogenicity of gene fusion based peptides. neoFusion is the first pipeline for identifying and prioritizing fusion neoantigen. Detailed information please refer to citation.            
+Fusion, which is an important class of somatic mutations, is an ideal source of tumor-derived neoantigens for creating an open reading frame. Given RNAseq sequencing data as input, neoFusion identify and evaluate the potential immunogenicity of gene fusion based neoantigen. neoFusion is the first pipeline for identifying and prioritizing fusion neoantigen. Detailed information please refer to citation.            
      
 ## Dependencies   
 
