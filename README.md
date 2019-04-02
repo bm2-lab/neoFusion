@@ -54,11 +54,11 @@ if install from source:
 
 Two mode are provided, denovo and midway. In denovo mode, you should provide fastq files.    
   
-    python neoFusion denovo --left 1.fq  --right 2.fq  --hla  HLA-A02:01  --genome STAR_Fusion/GRCh38/ctat/
+    python neoFusion.py denovo --left 1.fq  --right 2.fq  --hla  HLA-A02:01  --genome STAR_Fusion/GRCh38/ctat/
 
 In midway mode, just provide fusion transcripts in fa format.    
     
-    python neoFusion midway --fusion fusion.fa --hla HLA-A02:01     
+    python neoFusion.py midway --fusion fusion.fa --hla HLA-A02:01     
 
 ## output 
 The output file "neoscore.txt" contains all putative neoantigens information.
