@@ -1,2 +1,2 @@
-*. linguist-language=Python    
-*. linguist-language=Python   
+*.py linguist-language=Python    
+*x86_64 linguist-language=Python   
