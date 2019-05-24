@@ -1,9 +1,9 @@
-# neoFusion: a computational pipeline for gene fusion neoantigen identification and immunogenicity assessment  
+# neoFusion: a computational pipeline for gene fusion neoantigen prediction and immunogenic potential assessment  
   
-Fusion, which is an important class of somatic mutations, is an ideal source of tumor-derived neoantigens for creating an open reading frame. Given RNAseq sequencing data as input, neoFusion identify and evaluate the potential immunogenicity of gene fusion based neoantigen. neoFusion is the first pipeline for identifying and prioritizing fusion neoantigen. Detailed information please refer to citation.       
+Fusion, which is an important class of somatic mutations, is an ideal source of tumor-derived neoantigens for creating an open reading frame. Given RNAseq sequencing data as input, neoFusion predict and evaluate the immunogenic potential of gene fusion based neoantigen. neoFusion is the first pipeline for identifying and prioritizing fusion neoantigen. Detailed information please refer to citation.       
 
 #### Citation:   
-The landscape of tumor fusion neoantigens: a pan-cancer analysis, Submitted, 2019.    
+The landscape of tumor fusion candidate neoantigens: a pan-cancer analysis, Submitted, 2019.    
 
      
 ## Dependencies   
@@ -66,19 +66,19 @@ The output file "neoscore.txt" contains all putative neoantigens information.
 | Column | Description |
 | - | -: |
 | HLA | HLA type |
-| mismatch | The different base number between mtpep and wtpep |
-| MTpep | fusion derived neopeptide |
+| mismatch | mismatch between mtpep and wtpep |
+| MTpep | fusion derived candidiate neopeptide |
 | MTpep_score | predicted score of mtpep output by netMHCpan|
-| MTpep_aff | predicted affinity of mtpep output by netMHCpan |
-| MTpep_rank | predicted bind rank(%) of mtpep output by netMHCpan |
-| MTpep_comb | predicted comb score of mtpep, combined MHC score, cleavage score and TAP score output by netCTLpan|
+| MTpep_aff | predicted binding affinity of mtpep output by netMHCpan |
+| MTpep_rank | predicted binding affinity percent rank of mtpep output by netMHCpan |
+| MTpep_comb | Combined score of binding affinity, proteasomal C terminal cleavage, and TAP transport efficiency|
 | WTpep | pepmatch_db_x86_64 extracted normal peptide |
 | WTpep_score |  predicted score of wtpep output by netMHCpan|
-| WTpep_aff |  predicted affinity of wtpep output by netMHCpan |
-| WTpep_rank |  predicted bind rank(%) of wtpep output by netMHCpan|
-| WTpep_comb |  predicted comb score of wtpep, combined MHC score, cleavage score and TAP score output by netCTLpan|
-| Hydro_Model | peptide immunity measurement based on amino acid hydrophobicity |
-| R | T cell recognition score calculated based on TCR cross-reactivity |
+| WTpep_aff |  predicted binding affinity of wtpep output by netMHCpan |
+| WTpep_rank |  predicted binding affinity percent rank of wtpep output by netMHCpan|
+| WTpep_comb |  Combined score of binding affinity, proteasomal C terminal cleavage, and TAP transport efficiency|
+| Hydro_Model | peptide immunogenic potential based on amino acid hydrophobicity |
+| R | T cell recognition probability |
 | Score | Immunogenicity score of neoantigens |
 
 ## Contact   
