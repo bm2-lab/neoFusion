@@ -120,7 +120,7 @@ def do_hydro_vector(pep):
 def getH(pep,mymodel):
     hydro_vector = do_hydro_vector(pep)
     if len(hydro_vector) == 8:
-        H = .5
+        H = .38
         return H
     else:
         H = round(mymodel[len(hydro_vector)].predict_proba(hydro_vector)[0][1],3)
