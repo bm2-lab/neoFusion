@@ -51,7 +51,7 @@ def getWildpep(mut_pep):
     with open('/tmp/tmp.fa','w') as fout:
         fout.write('{}\n'.format(mut_pep))
     ref_seq = '/usr/local/data/reference_peptide_{}.txt'.format(len(mut_pep))
-    cmd = '{}  -thr 10  /tmp/tmp.fa  {}  > /tmp/tmp.tsv'.format(path,ref_seq)
+    cmd = '{}  -thr 5  /tmp/tmp.fa  {}  > /tmp/tmp.tsv'.format(path,ref_seq)
     subprocess.call(cmd,shell=True)
     cmd = "grep -v '#' /tmp/tmp.tsv"
     line = subprocess.Popen(cmd, shell=True, stdin=PIPE, stdout=PIPE)
