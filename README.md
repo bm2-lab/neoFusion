@@ -26,8 +26,11 @@ The Landscape of Tumor Fusion Neoantigens: A Pan-Cancer Analysis, iScience, 2019
      multiprocessing
      pickle   
 
-#### reference  
-     download from (https://data.broadinstitute.org/Trinity/CTAT_RESOURCE_LIB/)    
+#### reference
+     neoFusion support two mode, denovo and midway. In midway mode, user do not need download reference. In denovo mode,
+     please download reference as depicted:
+     The version of STAR-Fusion in our docker is 1.4.0, for compatibility, 
+     download reference from (https://data.broadinstitute.org/Trinity/CTAT_RESOURCE_LIB/__genome_libs_StarFv1.3/)    
      please refer to STAR-Fusion for more detail.    
      All the other needed materials can be found at data directory   
 
