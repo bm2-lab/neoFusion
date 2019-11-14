@@ -3,7 +3,7 @@
 Fusion, which is an important class of somatic mutations, is an ideal source of tumor-derived neoantigens for creating an open reading frame. Given RNAseq sequencing data as input, neoFusion predict and evaluate the immunogenic potential of gene fusion based neoantigen. neoFusion is the first pipeline for predicting and prioritizing fusion neoantigen. Detailed information please refer to citation.       
 
 #### Citation:   
-The landscape of tumor fusion candidate neoantigens: a pan-cancer analysis, Submitted, 2019.    
+The Landscape of Tumor Fusion Neoantigens: A Pan-Cancer Analysis, iScience, 2019.    
 
      
 ## Dependencies   
