@@ -59,7 +59,7 @@ Two mode are provided, denovo and midway. In denovo mode, you should provide fas
   
     python neoFusion.py denovo --left 1.fq  --right 2.fq  --hla  HLA-A02:01  --genome STAR_Fusion/GRCh38/ctat/
 
-In midway mode, just provide fusion transcripts in fa format.    
+In midway mode, just provide fusion proteins in fa format.    
     
     python neoFusion.py midway --fusion fusion.fa --hla HLA-A02:01     
 
