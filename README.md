@@ -61,7 +61,7 @@ Two mode are provided, denovo and midway. In denovo mode, you should provide fas
 
 In midway mode, just provide fusion proteins in fa format.    
     
-    python neoFusion.py midway --fusion fusion.fa --hla HLA-A02:01     
+    python neoFusion.py midway --fusion example_protein.fa --hla HLA-A02:01     
 
 ## output 
 The output file "neoscore.txt" contains all putative neoantigens information.
